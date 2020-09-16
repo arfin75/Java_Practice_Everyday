@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13760133-c741-4303-b051-a03eef0674d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/AccessModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/Casting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/AccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/AccessModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/HelloJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +38,39 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Application.AccessModifier">
-    <configuration name="AccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.AccessModifier" />
+  <component name="RunManager" selected="Application.DataType">
+    <configuration name="AccessModifier" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.AccessModifier" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="corejava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.Casting" />
+      <module name="Java_Practice_Everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.DataType" />
+      <module name="Java_Practice_Everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,11 +79,11 @@
       </method>
     </configuration>
     <configuration name="HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.HelloJava" />
+      <option name="MAIN_CLASS_NAME" value="corejava.HelloJava" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="corejava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,7 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccessModifier" />
+        <item itemvalue="Application.DataType" />
+        <item itemvalue="Application.Casting" />
         <item itemvalue="Application.HelloJava" />
       </list>
     </recent_temporary>
@@ -81,21 +113,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="578" height="190" key="GridCell.Tab.0.bottom" timestamp="1600148806824">
+    <state width="612" height="190" key="GridCell.Tab.0.bottom" timestamp="1600290563399">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="578" height="190" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600148806824" />
-    <state width="578" height="190" key="GridCell.Tab.0.center" timestamp="1600148806822">
+    <state width="612" height="190" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600290563399" />
+    <state width="612" height="190" key="GridCell.Tab.0.center" timestamp="1600290563396">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="578" height="190" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1600148806822" />
-    <state width="578" height="190" key="GridCell.Tab.0.left" timestamp="1600148806819">
+    <state width="612" height="190" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1600290563396" />
+    <state width="612" height="190" key="GridCell.Tab.0.left" timestamp="1600290563394">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="578" height="190" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1600148806819" />
-    <state width="578" height="190" key="GridCell.Tab.0.right" timestamp="1600148806823">
+    <state width="612" height="190" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1600290563394" />
+    <state width="612" height="190" key="GridCell.Tab.0.right" timestamp="1600290563398">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="578" height="190" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1600148806823" />
+    <state width="612" height="190" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1600290563398" />
+    <state x="204" y="-212" width="837" height="825" key="find.popup" timestamp="1600289975394">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="204" y="-212" width="837" height="825" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1600289975394" />
+    <state x="0" y="34" key="new project wizard" timestamp="1600219883110">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="0" y="34" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1600219883110" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package basics;
+package corejava;
 
 public class AccessModifier {
 
