@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13760133-c741-4303-b051-a03eef0674d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/Casting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/concatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/AccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/AccessModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/HelloJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +34,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Application.DataType">
+  <component name="RunManager" selected="Application.method">
     <configuration name="AccessModifier" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="corejava.AccessModifier" />
       <module name="Java_Practice_Everyday" />
@@ -52,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.Casting" />
+    <configuration name="concatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.concatenation" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.DataType" />
+    <configuration name="constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.constructor" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +81,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.HelloJava" />
+    <configuration name="method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.method" />
+      <module name="Java_Practice_Everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.scanner" />
+      <module name="Java_Practice_Everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.variables" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
@@ -93,9 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataType" />
-        <item itemvalue="Application.Casting" />
-        <item itemvalue="Application.HelloJava" />
+        <item itemvalue="Application.method" />
+        <item itemvalue="Application.constructor" />
+        <item itemvalue="Application.scanner" />
+        <item itemvalue="Application.concatenation" />
+        <item itemvalue="Application.variables" />
       </list>
     </recent_temporary>
   </component>
@@ -113,22 +144,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="612" height="190" key="GridCell.Tab.0.bottom" timestamp="1600290563399">
+    <state width="1168" height="92" key="GridCell.Tab.0.bottom" timestamp="1600548990375">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="612" height="190" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600290563399" />
-    <state width="612" height="190" key="GridCell.Tab.0.center" timestamp="1600290563396">
+    <state width="1168" height="92" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600548990375" />
+    <state width="1168" height="92" key="GridCell.Tab.0.center" timestamp="1600548990373">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="612" height="190" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1600290563396" />
-    <state width="612" height="190" key="GridCell.Tab.0.left" timestamp="1600290563394">
+    <state width="1168" height="92" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1600548990373" />
+    <state width="1168" height="92" key="GridCell.Tab.0.left" timestamp="1600548990373">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="612" height="190" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1600290563394" />
-    <state width="612" height="190" key="GridCell.Tab.0.right" timestamp="1600290563398">
+    <state width="1168" height="92" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1600548990373" />
+    <state width="1168" height="92" key="GridCell.Tab.0.right" timestamp="1600548990374">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="612" height="190" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1600290563398" />
+    <state width="1168" height="92" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1600548990374" />
+    <state width="1168" height="236" key="GridCell.Tab.1.bottom" timestamp="1600548135993">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1168" height="236" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600548135993" />
+    <state width="1168" height="236" key="GridCell.Tab.1.center" timestamp="1600548135993">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1168" height="236" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1600548135993" />
+    <state width="1168" height="236" key="GridCell.Tab.1.left" timestamp="1600548135993">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1168" height="236" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1600548135993" />
+    <state width="1168" height="236" key="GridCell.Tab.1.right" timestamp="1600548135993">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1168" height="236" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1600548135993" />
     <state x="204" y="-212" width="837" height="825" key="find.popup" timestamp="1600289975394">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -137,5 +184,9 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="0" y="34" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1600219883110" />
+    <state x="291" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1600545575811">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="291" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1600545575811" />
   </component>
 </project>
