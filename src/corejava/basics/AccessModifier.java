@@ -1,4 +1,4 @@
-package corejava;
+package corejava.basics;
 
 public class AccessModifier {
 
@@ -26,14 +26,11 @@ public class AccessModifier {
     }
 
     public static void main(String[] args) {
-
         int num1 = 20;
         System.out.println(num1);//20
         num1 = 25;
         System.out.println(num1);//25
-
     }
-
 
 }
 

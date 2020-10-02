@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13760133-c741-4303-b051-a03eef0674d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/concatenation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/basics/SwitchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/controlflow/DoWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/controlflow/ForLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/controlflow/NestedForLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/string/ComparingString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/string/SplittingString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/string/StringCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/string/SubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsolving/ProblemSolving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsolving/ProblemSolving2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsolving/ProblemSolving3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Practice_Everyday/META-INF/Java_Practice_Everyday.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/AccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/AccessModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/Casting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/HelloJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/concatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/concatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corejava/variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/basics/variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +44,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -41,13 +55,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Application.method">
+  <component name="RunManager" selected="Application.NestedForLoops">
     <configuration name="AccessModifier" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.AccessModifier" />
+      <option name="MAIN_CLASS_NAME" value="corejava.basics.AccessModifier" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corejava.*" />
+          <option name="PATTERN" value="problemsolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="concatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.concatenation" />
+    <configuration name="DoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.controlflow.DoWhileLoop" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corejava.*" />
+          <option name="PATTERN" value="corejava.controlflow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.constructor" />
+    <configuration name="ForLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.controlflow.ForLoops" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corejava.*" />
+          <option name="PATTERN" value="corejava.controlflow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.method" />
+    <configuration name="NestedForLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.controlflow.NestedForLoops" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corejava.*" />
+          <option name="PATTERN" value="corejava.controlflow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.scanner" />
+    <configuration name="ProblemSolving3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemsolving.ProblemSolving3" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corejava.*" />
+          <option name="PATTERN" value="problemsolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corejava.variables" />
+    <configuration name="SwitchStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.basics.SwitchStatement" />
       <module name="Java_Practice_Everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="corejava.*" />
+          <option name="PATTERN" value="corejava.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,14 +136,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.method" />
-        <item itemvalue="Application.constructor" />
-        <item itemvalue="Application.scanner" />
-        <item itemvalue="Application.concatenation" />
-        <item itemvalue="Application.variables" />
+        <item itemvalue="Application.NestedForLoops" />
+        <item itemvalue="Application.ForLoops" />
+        <item itemvalue="Application.DoWhileLoop" />
+        <item itemvalue="Application.ProblemSolving3" />
+        <item itemvalue="Application.SwitchStatement" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -144,42 +159,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1168" height="92" key="GridCell.Tab.0.bottom" timestamp="1600548990375">
+    <state x="337" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601419088645">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1168" height="92" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600548990375" />
-    <state width="1168" height="92" key="GridCell.Tab.0.center" timestamp="1600548990373">
+    <state x="337" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1601419088645" />
+    <state x="364" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601531805998">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1168" height="92" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1600548990373" />
-    <state width="1168" height="92" key="GridCell.Tab.0.left" timestamp="1600548990373">
+    <state x="364" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1601531805998" />
+    <state width="1168" height="175" key="GridCell.Tab.0.bottom" timestamp="1601611055922">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1168" height="92" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1600548990373" />
-    <state width="1168" height="92" key="GridCell.Tab.0.right" timestamp="1600548990374">
+    <state width="1168" height="175" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601611055922" />
+    <state width="1168" height="175" key="GridCell.Tab.0.center" timestamp="1601611055921">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1168" height="92" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1600548990374" />
-    <state width="1168" height="236" key="GridCell.Tab.1.bottom" timestamp="1600548135993">
+    <state width="1168" height="175" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601611055921" />
+    <state width="1168" height="175" key="GridCell.Tab.0.left" timestamp="1601611055920">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1168" height="236" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600548135993" />
-    <state width="1168" height="236" key="GridCell.Tab.1.center" timestamp="1600548135993">
+    <state width="1168" height="175" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601611055920" />
+    <state width="1168" height="175" key="GridCell.Tab.0.right" timestamp="1601611055921">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1168" height="236" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1600548135993" />
-    <state width="1168" height="236" key="GridCell.Tab.1.left" timestamp="1600548135993">
+    <state width="1168" height="175" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601611055921" />
+    <state width="1168" height="236" key="GridCell.Tab.1.bottom" timestamp="1601537171165">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1168" height="236" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1600548135993" />
-    <state width="1168" height="236" key="GridCell.Tab.1.right" timestamp="1600548135993">
+    <state width="1168" height="236" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601537171165" />
+    <state width="1168" height="236" key="GridCell.Tab.1.center" timestamp="1601537171164">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1168" height="236" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1600548135993" />
-    <state x="204" y="-212" width="837" height="825" key="find.popup" timestamp="1600289975394">
+    <state width="1168" height="236" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1601537171164" />
+    <state width="1168" height="236" key="GridCell.Tab.1.left" timestamp="1601537171163">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="204" y="-212" width="837" height="825" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1600289975394" />
+    <state width="1168" height="236" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1601537171163" />
+    <state width="1168" height="236" key="GridCell.Tab.1.right" timestamp="1601537171164">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1168" height="236" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1601537171164" />
+    <state x="303" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1601417482789">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="303" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1601417482789" />
+    <state x="204" y="-25" width="837" height="825" key="find.popup" timestamp="1600890239042">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="204" y="-25" width="837" height="825" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1600890239042" />
     <state x="0" y="34" key="new project wizard" timestamp="1600219883110">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
